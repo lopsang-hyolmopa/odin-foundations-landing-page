@@ -76,3 +76,105 @@
   color: #f9faf8;
   height: 250px;
 }
+
+/* Information Section */
+
+.information {
+  background-color: #fff;
+  padding: 34px 260px;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.information .info-row {
+  padding: 34px 120px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 64px;
+}
+
+.info-row > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+}
+
+.rounded-image {
+  border: 4px solid #3882f6;
+  border-radius: 20px;
+  height: 150px;
+  width: auto;
+  margin-bottom: 12px;
+}
+
+/* Quote Section */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 120px 420px;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote .author-name {
+  text-align: end;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* CTA Section */
+
+.cta-section {
+  background-color: #fff;
+  padding: 100px 260px;
+}
+
+.cta-section .cta-banner {
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 10px;
+  padding: 40px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.cta-banner .text-section .cta-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.cta-banner button {
+  border: 2px solid #fff;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 36px 0;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.footer a:visited {
+  color: #fff;
+}
